@@ -1,0 +1,15 @@
+Proje VSCODE ile olusuturulmustur. Ancak Jupyter Notebook ile de kullanilabilir.
+
+Gerekli kutuphaneler requirements.txt dosyasinda bulunmaktadir.
+
+1. python -m venv .venv
+2. .venv\Scripts\activate
+3. pip install -r requirements.txt
+
+Bu kodlar konsola yazildiginda proje kullanima hazir hale gelecektir.
+Son bir adim olarak jupyter icerisinde kernel olarak (.venv) secilmelidir.
+
+Esas proje `main.ipynb` dosyasinda bulunmaktadir. Diger ipynb dosyasi veriler uzerinde degisiklik yapildiginda sonuclarin nasil degistigini gostermek icin eklenmistir.
+
+Veri seti `data` klasorunde bulunmaktadir.
+Ciktilar ise out icerisinde bulunmaktadir.
